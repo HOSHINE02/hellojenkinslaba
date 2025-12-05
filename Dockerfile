@@ -9,5 +9,6 @@ COPY . .
 
 ENV FLASK_APP=app.py
 ENV FLASK_RUN_HOST=0.0.0.0
+ENV PORT=5000
 
 CMD ["python", "app.py"]
